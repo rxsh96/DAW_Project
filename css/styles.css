@@ -1,0 +1,193 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+
+body{
+	background: ##29393d;
+}
+
+p,ul{
+	color:#524c56;
+	font-size: 160%;
+	line-height: 155%;
+	padding: 3%;
+	text-indent: 2%;
+	text-align: justify;
+
+}
+
+h3{
+	font-size: 175%;
+	line-height:155%;
+	font-weight: 500;
+	color: #524c56;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+a{
+	color: #524c56;
+	text-decoration: none;
+	font-weight: bold;
+
+
+}
+
+a:hoover{
+	/*color: #c3d7df;*/
+	color:#e80c09;
+
+
+}
+
+.nav-link{
+	font-size: 100%;
+}
+
+
+
+
+
+#contenedor{
+
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+header{
+	width: 100%;
+	height: 100px;
+	top:0;
+	left: 0;
+}
+
+
+header #logo img{
+	margin: 20px;
+	float: left;
+	width: 200px;
+
+}
+
+
+/*NAVIGATION*/
+
+
+nav{
+	float: right;
+	padding: 25px 20px 0 0;
+}
+
+#menu-icon{
+	display: none;
+	font-size: 50px
+}
+
+
+
+.carousel-item{
+ height: 75vh;
+
+}
+
+
+.d-bloc{
+
+	width: 1204px; 
+	height: 550px; 
+	margin:-50px;
+}
+
+
+ul {
+	list-style: none;
+
+}
+
+nav li a ul {
+    text-align: center;
+    width: 100%;
+  }
+
+
+/*Estiliza en linea estos elementos*/
+nav ul {
+font-size: 150%;
+display: inline-block;
+float: right;
+padding: 10px;
+
+
+}
+
+
+
+
+/*FOOTER*/
+
+#creadores{
+  font-family: 'Great Vibes', cursive;
+  color: #f5f5f5;
+
+}
+
+footer{
+	background: #2c3e50;
+	width: 100%;
+	overflow: auto;
+}
+
+.icon-text{
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.icon-text-icon{
+	float: left;
+	width: 20%;
+	padding: 4% 4% 2% 0;
+}
+
+.footer-nav{
+
+	text-align: right;
+}
+
+.footer-nav a{
+
+	font-size: 160%;
+	color: #c3d7df;
+	font-weight: 300;
+}
+
+.footer-nav a:hoover{
+	color:#f5f5f5;
+
+}
+
+.social {
+	text-align: center;
+
+}
+
+.social li {
+	display: inline
+
+
+}
+
+
+.social i{
+	font-size:420%;
+	margin: 1%;
+	padding: 3%
+	color: #c3d7df;
+
+}
