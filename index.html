@@ -36,49 +36,68 @@
 		<div id="banner-contenedor"> 
 			<header>
 				
-				<div id="header-inner">	
-					<a href="#logo" id="logo">	
-						<img src="img/logo.png" alt="seminario">
-					</a>
+				<div class="col-lg-48" id="header-inner">
 					
-					<nav>
+							<!--Si queremos que el nav este fijo para toda la pagina, se puede 
+							reemplazar con:   
 
-						<!--
-						<a href="" id="menu-icon">
-							<i class="fa fa-bars"></i>
-						</a>
-							
+							<nav class="navbar fixed-bottom navbar-light bg-light">
 							-->
-						<ul>
-							<li>
-								<a href="index.html" > Principal </a>
-							</li>
-							<li>
-								<a href="#QuienesSomos" > ¿Quiénes somos? </a>
-							</li>
-							
-							<li>
-								<a href="#programa"> Programa </a>
-							</li>
-							<li>
-								<a href="#Personal"> Personal </a>
-							</li>
-							<li>
-								<a href="#Noticias"> Noticias </a>
-							</li>
-							<li>
-								<a href="#Contáctanos">Contáctanos</a> 
-							</li>
-							<li>
-								<a href="#Acceso">Acceso</a> 
-							</li>
-						</ul>	
+
+
+					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					  <!--<a class="navbar-brand" href="#index.html">Semired</a>-->
+						  <img src="img/logo.png" width="100" height="40"  alt="logo">
+
+						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						    <span class="navbar-toggler-icon"></span>
+						  </button>
+
+					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					    <ul class="navbar-nav mr-auto">
+					      <li class="nav-item active">
+					        <a class="nav-link" href="#index.html">Principal <span class="sr-only">(current)</span></a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#QuienesSomos">¿Quiénes somos?</a>
+					      </li>
+					      <li class="nav-item dropdown">
+					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          Programa
+					        </a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          <a class="dropdown-item" href="#">Teología</a>
+					          <a class="dropdown-item" href="#">Malla curricular</a>
+					          <div class="dropdown-divider"></div>
+					          <a class="dropdown-item" href="#">Becas</a>
+					        </div>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link " href="#personal">Personal</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link " href="#noticias">Noticias</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link " href="#contactanos">Contáctanos</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link " href="#acceso">Acceso</a>
+					      </li>
+					    </ul>
+					    <form class="form-inline my-2 my-lg-0">
+					      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+					      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+					    </form>
+					  </div>
 					</nav>
 				</div>	
+			</header>	
+		</div>	
 
-			</header>
 
-			<!--Carousell-->
+
+		<!--Carousell-->
 
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				  <ol class="carousel-indicators">
@@ -98,19 +117,11 @@
 				      <img class="d-block w-100" src="img/slider/slider3.jpg" alt="Third slide">
 				    </div>
 				  </div>
-				  <!--
-				  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				    <span class="sr-only">Previous</span>
-				  </a>
-				  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-				    <span class="sr-only">Next</span>
-				  </a>-->
 			</div>	
-		</div>	
 	</div>
 
+
+	<!-- *********************** COMIENZO DE SECCIONES **************** -->
 
 	<section class="one-second" id="QuienesSomos">
 		<div class="icono-contenedor">
