@@ -1,9 +1,7 @@
-
 *{
 	margin: 0;
 	padding: 0;
 	border: 0;
-
 }
 
 body{
@@ -17,7 +15,6 @@ p,ul{
 	padding: 3%;
 	text-indent: 2%;
 	text-align: justify;
-
 }
 
 h3{
@@ -34,15 +31,11 @@ a{
 	color: #524c56;
 	text-decoration: none;
 	font-weight: bold;
-
-
 }
 
 a:hoover{
 	/*color: #c3d7df;*/
 	color:#e80c09;
-
-
 }
 
 .nav-link{
@@ -54,7 +47,6 @@ a:hoover{
 
 
 #contenedor{
-
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -89,16 +81,12 @@ nav{
 	font-size: 50px
 }
 
-
-
 .carousel-item{
- height: 75vh;
-
+	height: 75vh;
 }
 
 
 .d-bloc{
-
 	width: 1204px; 
 	height: 550px; 
 	margin:-50px;
@@ -107,34 +95,28 @@ nav{
 
 ul {
 	list-style: none;
-
 }
 
 nav li a ul {
     text-align: center;
     width: 100%;
-  }
+}
 
 
 /*Estiliza en linea estos elementos*/
 nav ul {
 font-size: 150%;
-display: inline-block;
-float: right;
-padding: 10px;
-
-
+	display: inline-block;
+	float: right;
+	padding: 10px;
 }
-
-
 
 
 /*FOOTER*/
 
 #creadores{
-  font-family: 'Great Vibes', cursive;
-  color: #f5f5f5;
-
+	font-family: 'Great Vibes', cursive;
+  	color: #f5f5f5;
 }
 
 footer{
@@ -146,7 +128,6 @@ footer{
 .icon-text{
 	width: 100%;
 	margin: 0 auto;
-
 }
 
 .icon-text-icon{
@@ -156,12 +137,10 @@ footer{
 }
 
 .footer-nav{
-
 	text-align: right;
 }
 
 .footer-nav a{
-
 	font-size: 160%;
 	color: #c3d7df;
 	font-weight: 300;
@@ -169,25 +148,19 @@ footer{
 
 .footer-nav a:hoover{
 	color:#f5f5f5;
-
 }
 
 .social {
 	text-align: center;
-
 }
 
 .social li {
 	display: inline
-
-
 }
-
 
 .social i{
 	font-size:420%;
 	margin: 1%;
 	padding: 3%
 	color: #c3d7df;
-
 }
