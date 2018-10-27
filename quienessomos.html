@@ -97,20 +97,63 @@
 		<p>Cada materia conforma al estudiante en una serie de competencias, todas ellas completando las competencias generales y específicas que constituyen el título de Grado en Teología.</p>
  		
  		<h3>Malla Curricular</h3>
- 		<button class="accordion">Nivel 1</button>
-		<div class="panel">
-		  <p>Nivel 1</p>
-		</div>
+ 		<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Primer Año
+        </button>
+      </h5>
+    </div>
 
-		<button class="accordion">Nivel 2</button>
-		<div class="panel">
-		  <p>Nivel 2</p>
-		</div>
-
-		<button class="accordion">Nivel 3</button>
-		<div class="panel">
-		  <p>Nivel 3</p>
-		</div>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">	
+		<ul>
+			<li>1. Introducción a la Bíblia</li>
+			<li>2. Estudio Bíblico Inductivo</li>
+			<li>3. Historia y Geografía Bíblica</li>
+		</ul>
+	  </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Segundo Año
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+		<ul>
+			<li>1. Idiomas Bíblicos: Hebreo</li>
+			<li>2. Hermenéutica Bíblica 2</li>
+			<li>3. Pedagogía</li>
+		</ul>
+	  </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Tercer Año
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+		<ul>
+			<li>1. Historia de la Iglesia 1</li>
+			<li>2. Consejería Bíblica</li>
+			<li>3. Iglesia y Misión Integral</li>
+		</ul>
+	  </div>
+    </div>
+  </div>
+</div>
 
  		<h3>Becas</h3>
 	</section>
