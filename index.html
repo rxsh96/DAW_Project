@@ -6,7 +6,8 @@
 	<title>Semired</title>
 
 	<!--Hoja de estilos-->
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" media:"screen(max-width:380px)" href="css/styles.css">
+
 
 	<!-- FONT AWESOME-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -14,13 +15,6 @@
 	
 	<!-- SLIDER BOOTSTRAP -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 	<!--FUENTES -->
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
@@ -123,30 +117,30 @@
 
 	<!-- *********************** COMIENZO DE SECCIONES **************** -->
 
-	<section class="one-second" id="QuienesSomos">
+	<section class="one-second" id="QuienesSomos" class="col-12">
 		<div class="icono-contenedor">
 			<i class="fa fa-graduation-cap"></i>
 		</div>
 
-		<h3>
+		<h3 class="col-12">
 			¿Qué es SEMIRED? 
 		</h3>
-		<p>
+		<p class="col-12">
 			El seminario ministerial para el Reino de Dios (SEMIRED) es una institución teológica interdenominacional dedicada a la capacitación del pueblo evangélico por medio de diferentes propuestas de formación académica con el firme propósito de aportar a la vida de cada creyente en su conocimiento de la palabra de Dios y en su compromiso integral de servir a Jesucristo y extender su Reino en todas las esferas de la sociedad.
 		</p>
 	</section>
 
 
-	<section class="second-second" id="QuienesSomos1">
+	<section class="second-second" id="QuienesSomos1" class="col-12">
 		<div class="icono-contenedor">
 			<i class="fa fa-graduation-cap"></i>
 		</div>
 
-		<h3>
+		<h3 class="col-12">
 			 Contamos con ...
 		</h3>
 		
-			<ul>
+			<ul class="col-12">
 				<li>Aprobación legal de parte del Estado Ecuatoriano como institución de educación teológica.</li>
 				<li>Programa de estudios enfatiza el estudio y enseñanza de la Biblia.</li>
 				<li>Personal docente capacitado y experimentado.</li>
@@ -162,17 +156,101 @@
 	
 
 	<!-- Programa de estudios-->
+	<section id="Programa" class="col-12">
+		<div class="one-third-padding col-12" id="programa">
+			<h3>Programa de estudios</h3>
 
-	<div class="one-third-padding" id="programa">
-		<h3>Programa de estudios</h3>
 
-	</div>
+			<div class="jumbotron col-12">
+				  <h1 class="display-8 col-12">
+				  	BACHILLERATO TEOLÓGICO EN CIENCIAS BÍBLICAS Y MINISTERIALES
+				  </h1>
+
+				  <p class="lead col-12">La malla curricular del programa de Bachillerato está diseñada para que cada estudiante adquiera los conocimientos,destrezas y herramientas para el estudio,aplicación y enseñanza del mensaje de la Biblia,tomando en cuenta las necesidades del mundo contemporáneo y los desafíos éticos y misionales del siglo XXI.
+				  </p>
+				  <hr class="my-4">
+
+
+				  	<p class="col-12 " >Importante.
+						El grado  o título que se otorga es de nivel ministerial religioso. SEMIRED no otorga grados ni títulos reconocidos o avalados por la SENECYT o el CES.
+						De acuerdo a la leyes del Ecuador este es un derecho de las Universidades reconocidas como tales por el estado Ecuatoriano.
+						Es importante saber que aún las universidades extranjeras que ofertan titulos en el país deben estar acreditadas.
+						Para mayor información puede consultar en la lista de universidades aprobadas publicada en: <a 
+						href="https://www.educacionsuperior.gob.ec/">https://www.educacionsuperior.gob.ec/</a>
+					</p>
+
+					<hr class="my-4">
+
+				  	<p class="col-12" id="testimonio">Para el ejercicio de su ministerio cristiano no requiere un título académico específico,sino vocación de servicio,buen testimonio y pasión por proclamar el mensaje de Jesucristo.
+				 	</p>
+				  	
+				  <div align="center">
+				  	<a  class="btn btn-primary btn-lg" href="#Formulario" role="button">¡Inscríbete ahora!</a>
+				  </div>
+				  
+			</div>
+
+			<!--MALLA-->
+			<section class="col-12">
+				<button data-toggle="collapse" data-target="#demo" class="list-group-item list-group-item-action col-12">Ciclo de Materia</button>
+
+				<div id="demo" class="collapse">
+						
+					<div class="list-group col-12">
+	  					<button type="button" class="list-group-item list-group-item-action active">
+	   						 1er Año
+	  					</button>
+						 <button type="button" class="list-group-item list-group-item-action">1. Introducción a la biblia</button>
+						 <button type="button" class="list-group-item list-group-item-action">2. Estudio Bíblico inductivo.</button>
+						 <button type="button" class="list-group-item list-group-item-action">3. Historia y geografía Bíblica.</button>
+						 <button type="button" class="list-group-item list-group-item-action">4. Evangelismo y discipulado.</button>
+						 <button type="button" class="list-group-item list-group-item-action">5. Hermenéutica bíblica 1.</button>
+						 <button type="button" class="list-group-item list-group-item-action">6.Culturas y constumbres del mundo bíblico.</button>
+						 <button type="button" class="list-group-item list-group-item-action">7. Teología Bíblica 1.</button>
+						 <button type="button" class="list-group-item list-group-item-action">8. Educación Cristiana.</button>
+						 <button type="button" class="list-group-item list-group-item-action">9. Estudio Bíblico 1.</button>
+
+						 <button type="button" class="list-group-item list-group-item-action active">
+	   						 2do Año
+	  					</button>
+	  					<button type="button" class="list-group-item list-group-item-action">10. Idiomas Bíblicos: Hebreo.</button>
+						 <button type="button" class="list-group-item list-group-item-action">11. Hermenéutica Bíblica 2</button>
+						 <button type="button" class="list-group-item list-group-item-action">12. Pedagogía.</button>
+						 <button type="button" class="list-group-item list-group-item-action">13. Estudio Bíblico 2.</button>
+						 <button type="button" class="list-group-item list-group-item-action">14. Ética Cristiana.</button>
+						 <button type="button" class="list-group-item list-group-item-action">15. Idiomas Bíblicos: Griego.</button>
+						 <button type="button" class="list-group-item list-group-item-action">16. Homilética 1.</button>
+						 <button type="button" class="list-group-item list-group-item-action">17. Teología Bíblica 2.</button>
+						 <button type="button" class="list-group-item list-group-item-action">18. Estudio Bíblico 3.</button>
+
+	  					<button type="button" class="list-group-item list-group-item-action active">
+	   						 3er Año
+	  					</button>
+	  					<button type="button" class="list-group-item list-group-item-action">19. Historia de la iglesia 1.</button>
+						 <button type="button" class="list-group-item list-group-item-action">20. Consejería Bíblica.</button>
+						 <button type="button" class="list-group-item list-group-item-action">21. Iglesia y misión integral.</button>
+						 <button type="button" class="list-group-item list-group-item-action">22. Teología Bíblica 3.</button>
+						 <button type="button" class="list-group-item list-group-item-action">23. Administración y liderazgo.</button>
+						 <button type="button" class="list-group-item list-group-item-action">24. Misiología y plantación de iglesias.</button>
+						 <button type="button" class="list-group-item list-group-item-action">25. Teología pastoral.</button>
+						 <button type="button" class="list-group-item list-group-item-action">26. Historia de la Iglesia 2.</button>
+						 <button type="button" class="list-group-item list-group-item-action">27. Homilética 2.</button>
+					</div>
+				</div>
+
+			</section>
+			
+		</div>
+	</section>
+	<!--FIN---- Programa de estudios-->
+
+	
 
 
 
 	<!--FOOTER-->
 	
-	<footer>
+	<footer class="col-12">
 	    <div class="banner-wrapper">
 	      <div class="icon-text">
 	        <div class="icon-text-icon">
@@ -202,7 +280,7 @@
 	        </div>
 	        <div class="icon-text-text">
 
-	          <ul class="social">
+	          <ul class="social col-6">
 	            <li>
 	              <a href="mailto:seminariosemired@hotmail.com">
 	                <i class="fa fa-envelope-o"></i>
@@ -221,12 +299,21 @@
   	</footer>
 
 
-	<footer class="second-footer">
+	<footer class="second-footer col-12">
 	    <p>
 	       <a id="creadores" > &copy; Steven Andrade - Ricardo Serrano | 2018 </a>
 	    </p>
 	</footer>
 	
+
+
+
+	<!-- SCRIPTS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 </html>
