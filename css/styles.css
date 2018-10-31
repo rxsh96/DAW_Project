@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
 
 *{
 	margin: 0;
@@ -127,8 +130,6 @@ padding: 10px;
 }
 
 
-
-
 /*FOOTER*/
 
 #creadores{
@@ -141,6 +142,7 @@ footer{
 	background: #2c3e50;
 	width: 100%;
 	overflow: auto;
+	position: fixed;
 }
 
 .icon-text{
@@ -198,3 +200,59 @@ footer{
 	text-align: center;
 }
 
+
+
+/* ------------------- hoy*/
+
+article {
+  float: left;
+  width: 250px;
+  text-align: justify;
+  text-align: center;
+  font-family: 'Roboto', Sans-Serif;
+  font-size: 0.3em;
+
+}
+
+
+
+div[id^="profesor"]{
+  width: 250px;
+  height: 300px;
+  background-position: center; 
+  background-size: cover; 
+  
+}
+
+#profesor1{
+  background-image: url("https://www.ecestaticos.com/imagestatic/clipping/403/441/4034411604b2cc61ce9cd518de0da0e5/el-profesor-terapeuta-y-colega-el-futuro-pluriempleado-que-le-espera-a-los-docentes.jpg?mtime=1507562564");
+ 
+}
+
+#profesor2{
+
+	background-image: url("http://mujeresymas.cl/wp-content/uploads/2015/10/Profesor-800x500_c.jpg");\
+
+}
+
+#profesor3{
+	
+	background-image: url("https://i.avoz.es/default/2017/10/09/00121507529161552503418/Foto/S08O7083.jpg");
+
+}
+
+
+#profesor4{
+
+	background-image: url("https://www.superprof.mx/imagenes/anuncios/profesor-home-profesora-britanica-nativa-inglaterra-con-anos-experiencia-clases-todo-niveles-cdmx.jpg");
+
+}
+
+#profesores{
+	display: inline;
+}
+
+
+article:nth-child(1){
+	margin: 10px;
+}
