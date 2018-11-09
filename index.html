@@ -60,8 +60,8 @@
 					          Programa
 					        </a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					          <a class="dropdown-item" href="#">Teología</a>
-					          <a class="dropdown-item" href="#">Malla curricular</a>
+					          <a class="dropdown-item" href="#QuienesSomos">Teología</a>
+					          <a class="dropdown-item" href="#malla">Malla curricular</a>
 					          <div class="dropdown-divider"></div>
 					          <a class="dropdown-item" href="#">Becas</a>
 					        </div>
@@ -153,6 +153,9 @@
 		
 
 	</section>
+
+
+
 	
 
 	<!-- Programa de estudios-->
@@ -184,14 +187,49 @@
 				  	<p class="col-12" id="testimonio">Para el ejercicio de su ministerio cristiano no requiere un título académico específico,sino vocación de servicio,buen testimonio y pasión por proclamar el mensaje de Jesucristo.
 				 	</p>
 				  	
-				  <div align="center">
-				  	<a  class="btn btn-primary btn-lg" href="#Formulario" role="button">¡Inscríbete ahora!</a>
-				  </div>
+				  <div class="container" align="center">
+				  	<a  data-target="#Formulario" class=" btn btn-primary btn-lg"  data-toggle="modal">¡Inscríbete ahora!</a>
 				  
-			</div>
+
+						<div class="modal fade" id="Formulario">
+	    						<div class="modal-dialog">
+	        						<div class="modal-content">
+	        							<div class="modal-header">
+	        								<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+	        								<h4 class="modal-title">¡Inscríbete ahora!</a></h4>
+
+	        								<div class="modal-body">
+	        									<form>
+												  <div class="form-row">
+												    <div class="form-group col-md-6">
+												      <label for="inputEmail4">Nombre</label>
+												      <input type="email" class="form-control" id="inputEmail4" placeholder="Nombre">
+												    </div>
+												    <div class="form-group col-md-6">
+												      <label for="inputPassword4">Apellido</label>
+												      <input type="password" class="form-control" id="inputPassword4" placeholder="Apellido">
+												    </div>
+												  </div>
+												  <div class="form-group">
+												    <label for="inputAddress">Correo</label>
+												    <input type="text" class="form-control" id="inputAddress" placeholder="Correo">
+												  </div>
+												  <div class="form-group">
+												    <label for="inputAddress2">Teléfono</label>
+												    <input type="text" class="form-control" id="inputAddress2" placeholder="Teléfono">
+												  </div>
+												  <button type="submit" class="btn btn-primary col-6">Enviar</button>
+												</form>
+	        								</div>
+	        							</div>
+	        						</div>
+	    						</div>
+						</div>
+				  </div>
+	        </div>
 
 			<!--MALLA-->
-			<section class="col-12">
+			<section id="malla" class="col-12">
 				<button data-toggle="collapse" data-target="#demo" class="list-group-item list-group-item-action col-12">Ciclo de Materia</button>
 
 				<div id="demo" class="collapse">
@@ -247,79 +285,77 @@
 
 
 
-	   <div class="container">
+	<div class="container">
      
- 
- 
-<div id="personal" class="container gallery-container">
-  
-    <h1 class="text-center">Personal Semired</h1>
-  
-    <p class="page-description text-center">Pastores y maestros</p>
-      
-    <div class="tz-gallery">
-  
-        <div class="row mb-3">
-            <div class="col-md-4">
-                <div class="card">
-                    <a class="lightbox" href="img/profesor.png">
-                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
-                    Steven Andrade S.
-                    </a>
-                </div>
-            </div>
-             
-            <div class="col-md-4">
-                <div class="card">
-                    <a class="lightbox" href="img/profesor.png">
-                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
-                    </a>
-                </div>
-            </div>
-             
-            <div class="col-md-4">
-                <div class="card">
-                    <a class="lightbox" href="img/profesor.png"> 
-                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
-                    </a>
-                </div>
-            </div>
-        </div>
-          <div class="row"> 
-            <div class="col-md-4">
-                <div class="card">
-                    <a class="lightbox" href="img/profesor.png">
-                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
-                    Rafael Correa
-                    </a>
-                </div>
-            </div>
-             
-            <div class="col-md-4">
-                <div class="card">
-                    <a class="lightbox" href="img/profesor.png">
-                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
-                    Steven Andrade
-                    </a>
-                </div>
-            </div>
-             
-            <div class="col-md-4">
-                <div class="card">
-                    <a class="lightbox" href="img/profesor.png">
-                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
-                    Ricardo Serrano
-                    </a>
-                </div>
-            </div>
-         
-        </div>
-  
+			 
+			 
+			<div id="personal" class="container gallery-container">
+			  
+			    <h1 class="text-center">Personal Semired</h1>
+			  
+			    <p class="page-description text-center">Pastores y maestros</p>
+			      
+			    <div class="tz-gallery">
+			  
+			        <div class="row mb-3">
+			            <div class="col-md-4">
+			                <div class="card">
+			                    <a class="lightbox" href="img/profesor.png">
+			                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
+									 Carlos Miranda
+			                    </a>
+			                </div>
+			            </div>
+			             
+			            <div class="col-md-4">
+			                <div class="card">
+			                    <a class="lightbox" href="img/profesor.png">
+			                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
+			                    Carlos Miranda
+			                    </a>
+			                </div>
+			            </div>
+			             
+			            <div class="col-md-4">
+			                <div class="card">
+			                    <a class="lightbox" href="img/profesor.png"> 
+			                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
+			                    Carlos Miranda
+			                    </a>
+			                </div>
+			            </div>
+			        </div>
+			          <div class="row"> 
+			            <div class="col-md-4">
+			                <div class="card">
+			                    <a class="lightbox" href="img/profesor.png">
+			                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
+			                    Carlos Miranda
+			                    </a>
+			                </div>
+			            </div>
+			             
+			            <div class="col-md-4">
+			                <div class="card">
+			                    <a class="lightbox" href="img/profesor.png">
+			                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
+			                    Carlos Miranda
+			                    </a>
+			                </div>
+			            </div>
+			             
+			            <div class="col-md-4">
+			                <div class="card">
+			                    <a class="lightbox" href="img/profesor.png">
+			                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
+			                    Carlos Miranda
+			                    </a>
+			                </div>
+			            </div> 
+			        </div>
+			    </div>
+			</div>
     </div>
-  
-</div>
- 
-</div>
 
 	
 
@@ -383,7 +419,11 @@
 	</footer>
 	
 
-
+	<script>
+			
+	
+		
+	</script>
 
 	<!-- SCRIPTS -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -394,6 +434,8 @@
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+
+
 
 </body>
 </html>
