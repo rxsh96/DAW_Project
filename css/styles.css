@@ -258,6 +258,11 @@ article:nth-child(1){
 }
 
 
+/*SECCION CONTACTANOS*/
+.semiMap{
+	width: 100%;
+	height: 350px;
+}
 
 
 /*NUEVAS PRUEBAS*/
@@ -319,4 +324,5 @@ article:nth-child(1){
         border-radius: 0;
     }
 }
+
 
