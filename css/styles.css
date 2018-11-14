@@ -49,7 +49,7 @@ a:hoover{
 }
 
 .nav-link{
-	font-size: 100%;
+	font-size: 75%;
 }
 
 
@@ -84,7 +84,7 @@ header #logo img{
 
 nav{
 	float: right;
-	padding: 25px 20px 0 0;
+	padding: 0px 0px 0 0;
 }
 
 #menu-icon{
@@ -358,3 +358,39 @@ article:nth-child(1){
 }
 
 
+.navbar li a:hover{
+	padding:1% 0;
+	font-size: 0.7em;
+}
+
+#lista ul li{
+
+	list-style-type: square;
+}
+
+/* MENU HORIZONTAL */
+
+
+.vertical{
+	position: fixed;
+	left: 0;
+	top: 200px;
+	z-index: 2000;
+
+}
+
+.vertical ul{
+	list-style: none;
+}
+
+.vertical ul li a{
+
+	display: inline-block;
+	color: #2c3e50;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+.vertical ul li a:hover{
+	padding: 10px 30px;
+}
