@@ -19,6 +19,8 @@
 	<!--FUENTES -->
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 
+	<link href='https://fonts.googleapis.com/css?family=Wire+One|Raleway:300' rel='stylesheet' type='text/css'>
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 
 </head>
@@ -43,113 +45,122 @@
 	<!--BANNER PRINCIPAL-->
 	<div id="contenedor">
 
-		<!--Banner-->
+		<!-- BANNER -->
 		<div id="banner-contenedor"> 
 			<header>
 				
 				<div class="col-lg-48" id="header-inner">
-					
-							 
+								 
 					<nav class="navbar navbar-light bg-light">
-							
+					
+						<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					  		<!--<a class="navbar-brand" href="#index.html">Semired</a>-->
+							<img src="img/logo.png" width="100" height="40"  alt="logo">
 
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						    	<span class="navbar-toggler-icon">
+						    	</span>
+						  	</button>
 
-					<nav class="navbar navbar-expand-lg navbar-light bg-light">
-					  <!--<a class="navbar-brand" href="#index.html">Semired</a>-->
-						  <img src="img/logo.png" width="100" height="40"  alt="logo">
+					  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					    		<ul class="navbar-nav mr-auto">
+					      			
+					      			<li class="nav-item active">
+					        			<a class="nav-link" href="#index.html">Principal
+					        				<span class="sr-only">(current)</span>
+					        			</a>
+					      			</li>
 
-						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						    <span class="navbar-toggler-icon"></span>
-						  </button>
+					      			<li class="nav-item">
+					        			<a class="nav-link" href="#QuienesSomos">¿Quiénes Somos?</a>
+					      			</li>
+					      
+					      			<li class="nav-item dropdown">
+					        			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					         				Programa
+					        			</a>
+					        			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          				<a class="dropdown-item" href="#QuienesSomos">Teología</a>
+					          				<a class="dropdown-item" href="#malla">Malla curricular</a>
+					          				<div class="dropdown-divider"></div>
+					        			</div>
+					      			</li>
 
-					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-					    <ul class="navbar-nav mr-auto">
-					      <li class="nav-item active">
-					        <a class="nav-link" href="#index.html">Principal <span class="sr-only">(current)</span></a>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link" href="#QuienesSomos">¿Quiénes somos?</a>
-					      </li>
-					      <li class="nav-item dropdown">
-					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					          Programa
-					        </a>
-					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					          <a class="dropdown-item" href="#QuienesSomos">Teología</a>
-					          <a class="dropdown-item" href="#malla">Malla curricular</a>
-					          <div class="dropdown-divider"></div>
-					          <a class="dropdown-item" href="#">Becas</a>
-					        </div>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link " href="#personal">Personal</a>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link " href="#noticias">Noticias</a>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link " href="#contactanos">Contáctanos</a>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link " href="#acceso">Acceso</a>
-					      </li>
-					    </ul>
-					    <form class="form-inline my-2 my-lg-0">
-					      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-					      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-					    </form>
-					  </div>
+					      			<li class="nav-item">
+					        			<a class="nav-link " href="#personal">Personal</a>
+					      			</li>
+					      			<li class="nav-item">
+					        			<a class="nav-link " href="#noticias">Noticias</a>
+					      			</li>
+					      			<li class="nav-item">
+					        			<a class="nav-link " href="#contactanos">Contáctanos</a>
+					      			</li>
+					      			<li class="nav-item">
+					        			<a class="nav-link " href="#acceso">Acceso</a>
+					      			</li>
+					    		</ul>
+
+					    		<form class="form-inline my-2 my-lg-0">
+					      			<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+					      			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+					    		</form>
+					  		</div>
+						</nav>
 					</nav>
 				</div>	
 			</header>	
+		</div>
+
+		<!-- FIN BANNER -->
+
+		<!-- EFECTO CARRUSEL -->
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			
+			<ol class="carousel-indicators">
+			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+
+			<div class="carousel-inner">
+			    <div class="carousel-item active">
+				    <img class="d-block w-100" src="img/slider/slider1.jpg" alt="First slide">
+				</div>
+				<div class="carousel-item">
+				    <img class="d-block w-100" src="img/slider/slider2.jpg" alt="Second slide">
+				</div>
+				<div class="carousel-item">
+				    <img class="d-block w-100" src="img/slider/slider3.jpg" alt="Third slide">
+				</div>
+			</div>
 		</div>	
 
+		<!-- FIN EFECTO CARRUSEL -->
 
-
-		<!--Carousell-->
-
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-				  <ol class="carousel-indicators">
-				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				  </ol>
-
-				  <div class="carousel-inner">
-				    <div class="carousel-item active">
-				      <img class="d-block w-100" src="img/slider/slider1.jpg" alt="First slide">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="img/slider/slider2.jpg" alt="Second slide">
-				    </div>
-				    <div class="carousel-item">
-				      <img class="d-block w-100" src="img/slider/slider3.jpg" alt="Third slide">
-				    </div>
-				  </div>
-			</div>	
 	</div>
+	<!-- FIN BANNER PRINCIPAL -->
 
 
 	<!-- *********************** COMIENZO DE SECCIONES **************** -->
 
+	
+	<!-- INICIO SECCION QUE ES SEMIRED -->
 	<section class="one-second" id="QuienesSomos" >
-
 		<h3 class="col-12">
-			
 			<br><br>¿Qué es SEMIRED? 
 		</h3>
 		<div class="container">
 			<p >
-			El seminario ministerial para el Reino de Dios (SEMIRED) es una institución teológica interdenominacional dedicada a la capacitación del pueblo evangélico por medio de diferentes propuestas de formación académica con el firme propósito de aportar a la vida de cada creyente en su conocimiento de la palabra de Dios y en su compromiso integral de servir a Jesucristo y extender su Reino en todas las esferas de la sociedad.
+				El seminario ministerial para el Reino de Dios (SEMIRED) es una institución teológica interdenominacional dedicada a la capacitación del pueblo evangélico por medio de diferentes propuestas de formación académica con el firme propósito de aportar a la vida de cada creyente en su conocimiento de la palabra de Dios y en su compromiso integral de servir a Jesucristo y extender su Reino en todas las esferas de la sociedad.
 			</p>
-		</div>
-		
+		</div>		
 	</section>
-
+	<!-- FIN SECCION QUE ES SEMIRED -->
+	
+	<!-- INICIO SECCION CONTAMOS CON -->
 	<section class="second-second" id="QuienesSomos1" class="col-12">
-
 		<h3 >
-			 Contamos con ...
+			<br>Contamos con:
 		</h3>
 		<div class="container" id="lista">
 			<ul >
@@ -162,252 +173,289 @@
 				<li>Cordialidad y respeto</li>
 				<li>Biblioteca física y digital sin costo adicional.</li>
 			</ul>
-			
 		</div>
-			
-		
-
 	</section>
+	<!-- FIN SECCION CONTAMOS CON -->
 
-
-
-	
-
-	<!-- Programa de estudios-->
+	<!-- INICIO SECCION PROGRAMA DE ESTUDIOS-->
 	<section id="Programa" class="col-12">
+
 		<div class="one-third-padding col-12" id="programa">
-			<h3>Programa de estudios</h3>
 
-
+			<h3>
+				Programa de estudios
+			</h3>
+			
 			<div class="jumbotron col-12">
-				  <h1 class="display-8 col-12">
-				  	BACHILLERATO TEOLÓGICO EN CIENCIAS BÍBLICAS Y MINISTERIALES
-				  </h1>
+				
+				<h1 class="display-8 col-12">
+				  	Bachillerato Teológico en Ciencias Bíblicas y Ministeriales
+				</h1>
 
-				  <p class="lead col-12">La malla curricular del programa de Bachillerato está diseñada para que cada estudiante adquiera los conocimientos,destrezas y herramientas para el estudio,aplicación y enseñanza del mensaje de la Biblia,tomando en cuenta las necesidades del mundo contemporáneo y los desafíos éticos y misionales del siglo XXI.
-				  </p>
-				  <hr class="my-4">
+				<p class="lead col-12">
+					La malla curricular del programa de Bachillerato está diseñada para que cada estudiante adquiera los conocimientos,destrezas y herramientas para el estudio,aplicación y enseñanza del mensaje de la Biblia, 
+					tomando en cuenta las necesidades del mundo contemporáneo y los desafíos éticos y misionales del siglo XXI.
+				</p>
+				
+				<hr class="my-4">
 
+				<p class="col-12 ">
+					Importante.
+					El grado  o título que se otorga es de nivel ministerial religioso. SEMIRED no otorga grados ni títulos reconocidos o avalados por la SENECYT o el CES.
+					De acuerdo a la leyes del Ecuador este es un derecho de las Universidades reconocidas como tales por el estado Ecuatoriano.
+					Es importante saber que aún las universidades extranjeras que ofertan titulos en el país deben estar acreditadas.
+					Para mayor información puede consultar en la lista de universidades aprobadas publicada en: 
+					<a href="https://www.educacionsuperior.gob.ec/">
+						Educación Superior
+					</a>
+				</p>
 
-				  	<p class="col-12 " >Importante.
-						El grado  o título que se otorga es de nivel ministerial religioso. SEMIRED no otorga grados ni títulos reconocidos o avalados por la SENECYT o el CES.
-						De acuerdo a la leyes del Ecuador este es un derecho de las Universidades reconocidas como tales por el estado Ecuatoriano.
-						Es importante saber que aún las universidades extranjeras que ofertan titulos en el país deben estar acreditadas.
-						Para mayor información puede consultar en la lista de universidades aprobadas publicada en: <a 
-						href="https://www.educacionsuperior.gob.ec/">https://www.educacionsuperior.gob.ec/</a>
-					</p>
+				<hr class="my-4">
 
-					<hr class="my-4">
-
-				  	<p class="col-12" id="testimonio">Para el ejercicio de su ministerio cristiano no requiere un título académico específico,sino vocación de servicio,buen testimonio y pasión por proclamar el mensaje de Jesucristo.
-				 	</p>
+				<p class="col-12" id="testimonio">
+					Para el ejercicio de su ministerio cristiano no requiere un título académico específico, sino vocación de servicio,buen testimonio y pasión por proclamar el mensaje de Jesucristo.
+				</p>
 				  	
-				  <div class="container" align="center">
-				  	<a  data-target="#Formulario" class=" btn btn-primary btn-lg"  data-toggle="modal">¡Inscríbete ahora!</a>
-				  
+				<div class="container" align="center">
 
-						<div class="modal fade" id="Formulario">
-	    						<div class="modal-dialog">
-	        						<div class="modal-content">
-	        							<div class="modal-header">
-	        								<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-	        								<h4 class="modal-title">¡Inscríbete ahora!</a></h4>
+				  	<a data-target="#Formulario" class=" btn btn-primary btn-lg"  data-toggle="modal">
+				  		¡Inscríbete ahora!
+				  	</a>
 
-	        								<div class="modal-body">
-	        									<form>
-												  <div class="form-row">
-												    <div class="form-group col-md-6">
-												      <label for="inputEmail4">Nombre</label>
-												      <input type="email" class="form-control" id="inputEmail4" placeholder="Nombre">
-												    </div>
-												    <div class="form-group col-md-6">
-												      <label for="inputPassword4">Apellido</label>
-												      <input type="password" class="form-control" id="inputPassword4" placeholder="Apellido">
-												    </div>
-												  </div>
-												  <div class="form-group">
-												    <label for="inputAddress">Correo</label>
-												    <input type="text" class="form-control" id="inputAddress" placeholder="Correo">
-												  </div>
-												  <div class="form-group">
-												    <label for="inputAddress2">Teléfono</label>
-												    <input type="text" class="form-control" id="inputAddress2" placeholder="Teléfono">
-												  </div>
-												  <button type="submit" class="btn btn-primary col-6">Enviar</button>
-												</form>
-	        								</div>
-	        							</div>
+				  	<div class="modal fade" id="Formulario">
+	    				<div class="modal-dialog">
+	        				<div class="modal-content">
+	        					<div class="modal-header">
+	        						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+	        						</button>
+	        						<h4 class="modal-title">¡Inscríbete ahora!</a>
+	        						</h4>
+       								<div class="modal-body">
+       									<form>
+											<div class="form-row">
+										    	
+										    	<div class="form-group col-md-6">
+
+													<label for="inputEmail4">
+														Nombre
+													</label>
+
+												    <input type="email" class="form-control" id="inputEmail4" placeholder="Nombre">
+												</div>
+
+												<div class="form-group col-md-6">
+												    <label for="inputPassword4">
+												    	Apellido
+												    </label>
+												    <input type="password" class="form-control" id="inputPassword4" placeholder="Apellido">
+												</div>
+											</div>
+
+											<div class="form-group">
+												<label for="inputAddress">
+													Correo
+												</label>
+												<input type="text" class="form-control" id="inputAddress" placeholder="Correo">
+											</div>
+
+											<div class="form-group">
+											    <label for="inputAddress2">
+											    	Teléfono
+											    </label>
+											    <input type="text" class="form-control" id="inputAddress2" placeholder="Teléfono">
+											</div>
+
+											<button type="submit" class="btn btn-primary col-6">Enviar</button>
+										</form>
 	        						</div>
-	    						</div>
-						</div>
-				  </div>
+	        					</div>
+	        				</div>
+	    				</div>
+					</div>
+				</div>
 	        </div>
 
-			<!--MALLA-->
-			<!--Aqui va la seccion malla-->
+			<!-- INICIO SECCION MALLA CURRICULAR-->
 			<div class="container col-12" id="materias">
 				<div class="row col-12">
 					<div class="list-group col-4">
-					  <a href="#" class="list-group-item active">1<sup>er</sup> año</a>
-					  <a href="#" class="list-group-item">1. Introducción a la biblia</a>
-					  <a href="#" class="list-group-item">2. Estudio Bíblico inductivo.</a>
-					  <a href="#" class="list-group-item">3. Historia y geografía Bíblica.</a>
-					  <a href="#" class="list-group-item">4. Evangelismo y discipulado.</a>
-					  <a href="#" class="list-group-item">5. Hermenéutica bíblica 1.</a>
-					  <a href="#" class="list-group-item">6.Culturas y constumbres del mundo bíblico.</a>
-					  <a href="#" class="list-group-item">7. Teología Bíblica 1.</a>
-					  <a href="#" class="list-group-item">8. Educación Cristiana.</a>
-					  <a href="#" class="list-group-item">9. Estudio Bíblico 1.</a>
+						<a href="#" class="list-group-item active">1<sup>er</sup> año</a>
+					  	<a href="#" class="list-group-item">1. Introducción a la biblia</a>
+						<a href="#" class="list-group-item">2. Estudio Bíblico inductivo.</a>
+						<a href="#" class="list-group-item">3. Historia y geografía Bíblica.</a>
+						<a href="#" class="list-group-item">4. Evangelismo y discipulado.</a>
+						<a href="#" class="list-group-item">5. Hermenéutica bíblica 1.</a>
+						<a href="#" class="list-group-item">6.Culturas y constumbres del mundo bíblico.</a>
+						<a href="#" class="list-group-item">7. Teología Bíblica 1.</a>
+						<a href="#" class="list-group-item">8. Educación Cristiana.</a>
+						<a href="#" class="list-group-item">9. Estudio Bíblico 1.</a>
 					</div>
 
 					<div class="list-group col-4">
-					  <a href="#" class="list-group-item active">2<sup>do</sup> año</a>
-					  <a href="#" class="list-group-item">1. Idiomas Bíblicos: Hebreo.</a>
-					  <a href="#" class="list-group-item">2. Hermenéutica Bíblica 2</a>
-					  <a href="#" class="list-group-item">3. Pedagogía.</a>
-					  <a href="#" class="list-group-item">4. Estudio Bíblico 2.</a>
-					  <a href="#" class="list-group-item">5. Ética Cristiana.</a>
-					  <a href="#" class="list-group-item">6. Idiomas Bíblicos: Griego.</a>
-					  <a href="#" class="list-group-item">7. Homilética 1.</a>
-					  <a href="#" class="list-group-item">8. Teología Bíblica 2.</a>
-					  <a href="#" class="list-group-item">9. Estudio Bíblico 3.</a>
+					  	<a href="#" class="list-group-item active">2<sup>do</sup> año</a>
+					  	<a href="#" class="list-group-item">1. Idiomas Bíblicos: Hebreo.</a>
+					  	<a href="#" class="list-group-item">2. Hermenéutica Bíblica 2</a>
+					  	<a href="#" class="list-group-item">3. Pedagogía.</a>
+					  	<a href="#" class="list-group-item">4. Estudio Bíblico 2.</a>
+					  	<a href="#" class="list-group-item">5. Ética Cristiana.</a>
+					  	<a href="#" class="list-group-item">6. Idiomas Bíblicos: Griego.</a>
+					  	<a href="#" class="list-group-item">7. Homilética 1.</a>
+					  	<a href="#" class="list-group-item">8. Teología Bíblica 2.</a>
+					  	<a href="#" class="list-group-item">9. Estudio Bíblico 3.</a>
 					</div>
 
 					<div class="list-group col-4">
 						<div class="col-12">
 							<div class="row">
 								<a href="#" class="list-group-item active col-12">3<sup>er</sup> año</a>
-							  <a href="#" class="list-group-item col-12">1. Historia de la iglesia 1.</a>
-							  <a href="#" class="list-group-item col-12">2. Consejería Bíblica.</a>
-							  <a href="#" class="list-group-item col-12">3. Iglesia y misión integral.</a>
-							  <a href="#" class="list-group-item col-12">4. Teología Bíblica 3.</a>
-							  <a href="#" class="list-group-item col-12">5. Administración y liderazgo.</a>
-							  <a href="#" class="list-group-item col-12">6. Misiología y plantación de iglesias.</a>
-							  <a href="#" class="list-group-item col-12">7. Teología pastoral.</a>
-							  <a href="#" class="list-group-item col-12">8. Historia de la Iglesia 2.</a>
-							  <a href="#" class="list-group-item col-12">9. Homilética 2.</a>
-
+							  	<a href="#" class="list-group-item col-12">1. Historia de la iglesia 1.</a>
+							  	<a href="#" class="list-group-item col-12">2. Consejería Bíblica.</a>
+							  	<a href="#" class="list-group-item col-12">3. Iglesia y misión integral.</a>
+							  	<a href="#" class="list-group-item col-12">4. Teología Bíblica 3.</a>
+							  	<a href="#" class="list-group-item col-12">5. Administración y liderazgo.</a>
+							  	<a href="#" class="list-group-item col-12">6. Misiología y plantación de iglesias.</a>
+							  	<a href="#" class="list-group-item col-12">7. Teología pastoral.</a>
+							  	<a href="#" class="list-group-item col-12">8. Historia de la Iglesia 2.</a>
+							  	<a href="#" class="list-group-item col-12">9. Homilética 2.</a>
 							</div>
-							
-
-						</div>
-					  
+						</div> 
 					</div>
 				</div>
 			</div>
+			<!-- FIN SECCION MALLA CURRICULAR-->
 		</div>
 	</section>
-	<!--FIN---- Programa de estudios-->
+	<!-- FIN SECCION PROGRAMA DE ESTUDIOS-->
 
 
 
-
+	<!-- INICIO SECCION PERSONAL SEMIRED -->
 	<div class="container">
-     
-			 
-			 
-			<div id="personal" class="container gallery-container">
+
+		<div id="personal" class="container gallery-container">
+			        
+			<div class="tz-gallery">
+
+				<h1 class="text-center">
+					Personal Semired
+				</h1>
 			  
-			    <h1 class="text-center">Personal Semired</h1>
-			  
-			    <p class="page-description text-center">Pastores y Maestros</p>
-			      
-			    <div class="tz-gallery">
-			  
-			        <div class="row mb-3">
-			            <div class="col-md-4">
-			                <div class="card">
-			                    <a class="lightbox" href="img/profesor.png">
-			                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
-									 Carlos Miranda
-			                    </a>
-			                </div>
-			            </div>
-			             
-			            <div class="col-md-4">
-			                <div class="card">
-			                    <a class="lightbox" href="img/profesor.png">
-			                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
-			                    Carlos Miranda
-			                    </a>
-			                </div>
-			            </div>
-			             
-			            <div class="col-md-4">
-			                <div class="card">
-			                    <a class="lightbox" href="img/profesor.png"> 
-			                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
-			                    Carlos Miranda
-			                    </a>
-			                </div>
+				<p class="page-description text-center">
+					Pastores y Maestros
+				</p>
+
+			    <div class="row mb-3">
+
+			        <div class="col-md-4">
+			            <div class="card">
+			                <a class="lightbox" href="img/profesor.png">
+			    	            <img src="img/profesor.png" alt="profesor" class="card-img-top">
+								Carlos Miranda
+			                </a>
 			            </div>
 			        </div>
-			          <div class="row"> 
-			            <div class="col-md-4">
-			                <div class="card">
-			                    <a class="lightbox" href="img/profesor.png">
-			                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
-			                    Carlos Miranda
-			                    </a>
-			                </div>
-			            </div>
 			             
-			            <div class="col-md-4">
-			                <div class="card">
-			                    <a class="lightbox" href="img/profesor.png">
-			                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
-			                    Carlos Miranda
-			                    </a>
-			                </div>
+			        <div class="col-md-4">
+			            <div class="card">
+			                <a class="lightbox" href="img/profesor.png">
+			        	    	<img src="img/profesor.png" alt="profesor" class="card-img-top">
+			                	Carlos Miranda
+			                </a>
 			            </div>
-			             
-			            <div class="col-md-4">
-			                <div class="card">
-			                    <a class="lightbox" href="img/profesor.png">
-			                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
-			                    Carlos Miranda
-			                    </a>
-			                </div>
-			            </div> 
 			        </div>
+			             
+			        <div class="col-md-4">
+			            <div class="card">
+			                <a class="lightbox" href="img/profesor.png"> 
+			                    <img src="img/profesor.png" alt="profesor" class="card-img-top">
+			                    Carlos Miranda
+			                </a>
+			            </div>
+			        </div>
+			        
+			    </div>
+
+			    <div class="row"> 
+			        
+			        <div class="col-md-4">
+			            <div class="card">
+			                <a class="lightbox" href="img/profesor.png">
+			    	            <img src="img/profesor.png" alt="profesor" class="card-img-top">
+			                    Carlos Miranda
+			                </a>
+			            </div>
+			        </div>
+			             
+			        <div class="col-md-4">
+			            <div class="card">
+			                <a class="lightbox" href="img/profesor.png">
+			        	        <img src="img/profesor.png" alt="profesor" class="card-img-top">
+			                    Carlos Miranda
+			                </a>
+			            </div>
+			        </div>
+			             
+			        <div class="col-md-4">
+			            <div class="card">
+			                <a class="lightbox" href="img/profesor.png">
+			    	            <img src="img/profesor.png" alt="profesor" class="card-img-top">
+			                    Carlos Miranda
+			                </a>
+			            </div>
+			        </div> 
 			    </div>
 			</div>
+		</div>
     </div>
+    <!-- FIN SECCION PERSONAL SEMIRED -->
 
-	<!-- Seccion Noticias -->
+	<!-- INICIO SECCION NOTICIAS -->
 	<div class="container">
-		<div class="row">
-    		<h3>Noticias</h3>
+
+		<div id="personal" class="container gallery-container">
+
+		    <h1 class="text-center">
+		    	Noticias Destacadas
+		    </h1>
+		    
+		    <div class="tz-gallery">
+		  
+		        <div class="row mb-3">
+
+		            <div class="col-md-4">
+		                <div class="card">
+		                    <a class="lightbox" href="img/noticia1.jpg">
+			                    <img src="img/noticia1.jpg" alt="noticia1" class="card-img-top">
+		                    </a>
+		                </div>
+		            </div>
+
+		            <div class="col-md-4">
+		                <div class="card">
+		                    <a class="lightbox" href="img/noticia2.jpg">
+			                    <img src="img/noticia2.jpg" alt="noticia2" class="card-img-top">
+		                    </a>
+		                </div>
+		            </div>
+
+		            <div class="col-md-4">
+		                <div class="card">
+		                    <a class="lightbox" href="img/noticia3.jpg">
+			                    <img src="img/noticia3.jpg" alt="noticia3" class="card-img-top">
+		                    </a>
+		                </div>
+		            </div>
+
+				</div>
+			</div>
 		</div>
-
-		<div class="row">
-			
-			<div class="col-md-4">
-				
-				<img src="img/noticia1.jpg" alt="noticia1">
-
-			</div>
-
-			<div class="col-md-4">
-				<img src="img/noticia2.jpg" alt="noticia2">
-
-			</div>
-			
-			<div class="col-md-4">
-				<img src="img/noticia3.jpg" alt="noticia3">
-
-			</div>
-
-
-
-
-		</div>
-
-	</div>
+    </div>
+    <!-- FIN SECCION NOTICIAS -->
     	
 
-    <!-- Seccion Contacto -->
+    <!-- INICIO SECCION CONTACTO -->
     <section id="contactanos">
+
     	<div class="container">
     		
     		<div class="well well-sm">
@@ -415,28 +463,38 @@
     		</div>
 
     		<div class="row">
+
     			<div class="col-md-7">
     				<iframe class="semiMap" src="https://maps.google.com/maps?q=CDLA.%20ALAMOS%20NORTE%20MZ.%2018.%20V.%2031%20LOCAL%20DE%20LA%20IGLESIA%20DIOS%20VIVIENTE.%20Guayaquil&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
     			</div>
+
     			<div class="col-md-5">
-    				<h4>Ingresa tus datos</h4>
+    				<h4>
+    					Ingresa tus datos
+    				</h4>
+
     				<form>
 
     					<div class="form-group">
     						<input type="text" class="form-control" placeholder="Nombre" required>
     					</div>
+
     					<div class="form-group">
     						<input type="text" class="form-control" placeholder="Apellido" required>
     					</div>
+    					
     					<div class="form-group">
             				<input type="email" class="form-control" placeholder="Correo" required>
           				</div>
+          				
           				<div class="form-group">
             				<input type="tel" class="form-control" placeholder="Teléfono">
           				</div>
+          				
           				<div class="form-group">
             				<textarea class="form-control" rows="3" placeholder="Mensaje" required></textarea>
           				</div>
+          				
           				<button class="btn btn-default" type="submit" name="button">
               				<i class="far fa-paper-plane" aria-hidden="true"></i> Enviar
           				</button>
@@ -446,22 +504,26 @@
     		</div>
     	</div>
     </section>
+    <!-- FIN SECCION CONTACTO -->
 
 
-	<!--FOOTER-->
-
+	<!-- FOOTER -->
 	<footer class="footer col-12">
+
 		<div class="container">
+
         	<div class="text-center center-block">
                	<a class="fab fa-facebook-square fa-3x social" href="https://www.facebook.com/semired"></a>
 	           	<a class="fa fa-envelope-square fa-3x social" href="mailto:seminariosemired@hotmail.com"></a>
 			</div>
+
 		    <p class="text-center">
 		       <a id="creadores" > &copy; Steven Andrade - Ricardo Serrano | 2018 </a>
 		    </p>
+		
 		</div>
 	</footer>
-
+		<!-- FIN FOOTER -->
 
 	
 
@@ -473,8 +535,6 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-
-
 
 </body>
 </html>

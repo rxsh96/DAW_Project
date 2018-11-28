@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-
-
 *{
 	margin: 0;
 	padding: 0;
 	border: 0;
-
 }
 
 body{
 	background: ##29393d;
+	margin:0px;
 }
 
 p,ul{
@@ -20,7 +18,6 @@ p,ul{
 	padding: 3%;
 	text-indent: 2%;
 	text-align: justify;
-
 }
 
 h3{
@@ -37,31 +34,21 @@ a{
 	color: #524c56;
 	text-decoration: none;
 	font-weight: bold;
-
-
 }
 
 a:hoover{
 	/*color: #c3d7df;*/
 	color:#e80c09;
-
-
 }
 
 .nav-link{
 	font-size: 75%;
 }
 
-
-
-
-
 #contenedor{
-
-	max-width: 1200px;
+	max-width: 100%;
 	margin: 0 auto;
 }
-
 
 header{
 	width: 100%;
@@ -70,17 +57,14 @@ header{
 	left: 0;
 }
 
-
 header #logo img{
 	margin: 20px;
 	float: left;
 	width: 200px;
-
 }
 
 
 /*NAVIGATION*/
-
 
 nav{
 	float: right;
@@ -92,50 +76,41 @@ nav{
 	font-size: 50px
 }
 
-
-
 .carousel-item{
- height: 75vh;
-
+	height: 75vh;
 }
 
 
 .d-bloc{
-
 	width: 1204px; 
 	height: 550px; 
 	margin:-50px;
 }
 
 
-ul {
+ul{
 	list-style: none;
-
 }
 
-nav li a ul {
-    text-align: center;
+nav li a ul{
+	text-align: center;
     width: 100%;
-  }
+}
 
 
 /*Estiliza en linea estos elementos*/
-nav ul {
-font-size: 150%;
-display: inline-block;
-float: right;
-padding: 10px;
-
-
+nav ul{
+	font-size: 150%;
+	display: inline-block;
+	float: right;
+	padding: 10px;
 }
 
 
 /*FOOTER*/
-
 #creadores{
-  font-family: 'Great Vibes', cursive;
-  color: #f5f5f5;
-
+	font-family: 'Great Vibes', cursive;
+	color: #f5f5f5;
 }
 
 footer{
@@ -148,7 +123,6 @@ footer{
 .icon-text{
 	width: 100%;
 	margin: 0 auto;
-
 }
 
 .icon-text-icon{
@@ -158,31 +132,25 @@ footer{
 }
 
 .footer-nav{
-
 	text-align: center;
 }
 
 .footer-nav a{
-
 	font-size: 160%;
 	color: #c3d7df;
 	font-weight: 300;
 }
 
-.footer-nav a:hoover{
+.footer-nav a:hover{
 	color:#f5f5f5;
-
 }
 
-.social {
+.social{
 	text-align: center;
-
 }
 
-.social li {
-	display: inline
-
-
+.social li{
+	display: inline;
 }
 
 
@@ -191,12 +159,10 @@ footer{
 	margin: 1%;
 	padding: 3%
 	color: #c3d7df;
-
 }
 
 
 #testimonio{
-
 	text-align: center;
 }
 
@@ -204,48 +170,36 @@ footer{
 
 /* ------------------- hoy*/
 
-article {
-  float: left;
-  width: 250px;
-  text-align: justify;
-  text-align: center;
-  font-family: 'Roboto', Sans-Serif;
-  font-size: 0.3em;
-
+article{
+	float: left;
+	width: 250px;
+	text-align: justify;
+	text-align: center;
+	font-family: 'Roboto', Sans-Serif;
+	font-size: 0.3em;
 }
 
-
-
 div[id^="profesor"]{
-  width: 250px;
-  height: 300px;
-  background-position: center; 
-  background-size: cover; 
-  
+	width: 250px;
+	height: 300px;
+	background-position: center; 
+	background-size: cover;  
 }
 
 #profesor1{
-  background-image: url("https://www.ecestaticos.com/imagestatic/clipping/403/441/4034411604b2cc61ce9cd518de0da0e5/el-profesor-terapeuta-y-colega-el-futuro-pluriempleado-que-le-espera-a-los-docentes.jpg?mtime=1507562564");
- 
+	background-image: url("https://www.ecestaticos.com/imagestatic/clipping/403/441/4034411604b2cc61ce9cd518de0da0e5/el-profesor-terapeuta-y-colega-el-futuro-pluriempleado-que-le-espera-a-los-docentes.jpg?mtime=1507562564");
 }
 
 #profesor2{
-
 	background-image: url("http://mujeresymas.cl/wp-content/uploads/2015/10/Profesor-800x500_c.jpg");\
-
 }
 
 #profesor3{
-	
 	background-image: url("https://i.avoz.es/default/2017/10/09/00121507529161552503418/Foto/S08O7083.jpg");
-
 }
 
-
 #profesor4{
-
 	background-image: url("https://www.superprof.mx/imagenes/anuncios/profesor-home-profesora-britanica-nativa-inglaterra-con-anos-experiencia-clases-todo-niveles-cdmx.jpg");
-
 }
 
 #profesores{
@@ -265,15 +219,14 @@ article:nth-child(1){
 }
 
 /*SECCION NOTICIAS*/
-
-.featured-article {
+.featured-article{
 	width: 482px;
 	height: 350px;
 	position: relative;
 	margin-bottom: 1em;
 }
 
-.featured-article .block-title {
+.featured-article .block-title{
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -284,36 +237,34 @@ article:nth-child(1){
 	color: #fff;
 }
 
-.featured-article .block-title h4 {
+.featured-article .block-title h4{
 	margin: 0;
 }
 
-.main-list {
+.main-list{
 	padding-left: .5em;
 }
 
-.main-list .media {
+.main-list .media{
 	padding-bottom: 1.1em;
 	border-bottom: 1px solid #e8e8e8;
 }
 
 /*NUEVAS PRUEBAS*/
-
-
-.container.gallery-container {
+.container.gallery-container{
     background-color: #fff;
     color: #35373a;
     min-height: 100vh;
 }
 
-.gallery-container h4 {
+.gallery-container h4{
     text-align: center;
     margin-top: 70px;
     font-family: 'Droid Sans', sans-serif;
     font-weight: bold;
 }
 
-.gallery-container p.page-description {
+.gallery-container p.page-description{
     text-align: center;
     max-width: 800px;
     margin: 25px auto;
@@ -321,11 +272,11 @@ article:nth-child(1){
     font-size: 18px;
 }
 
-.tz-gallery {
+.tz-gallery{
     padding: 40px;
 }
 
-.tz-gallery .lightbox img {
+.tz-gallery .lightbox img{
     width: 100%;
     margin-bottom: 30px;
     transition: 0.2s ease-in-out;
@@ -333,7 +284,7 @@ article:nth-child(1){
 }
 
 
-.tz-gallery .lightbox img:hover {
+.tz-gallery .lightbox img:hover{
     transform: scale(1.05);
     box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
@@ -369,44 +320,63 @@ article:nth-child(1){
 }
 
 /* MENU VERTICAL*/
-
-
 .vertical{
-		position: fixed;
-		left: 0;
-		top: 200px;
-		z-index: 2000;
-
-	}
-
-	.vertical ul{
-		list-style: none;
-	}
-
-	.vertical ul li a{
-
-		display: inline-block;
-		color: #2c3e50;
-		padding: 10px 15px;
-		text-decoration: none;
-	}
-
-	.vertical ul li a:hover{
-		padding: 10px 30px;
-	}
-
-
-@media  (max-width: 640px){
-
-.vertical{
-	display: none;
+	position: fixed;
+	left: 0;
+	top: 200px;
+	z-index: 2000;
 }
 
+.vertical ul{
+	list-style: none;
+}
+
+.vertical ul li a{
+	display: inline-block;
+	color: #2c3e50;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+.vertical ul li a:hover{
+	padding: 10px 30px;
+}
+
+@media(max-width: 640px){
+	.vertical{
+		display: none;
+	}
 }
 
 /*IMAGENES NOTICIAS*/
-
 #personal,body,#materias{
+    background: linear-gradient(to right, #ece9e6, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
-  background: linear-gradient(to right, #ece9e6, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/*SEPARATE SECTIONS*/
+.colour-block{
+	background:#823A9C;
+	width:60%;
+	padding:7% 20% 10% 20%;
+	color:#fff;
+}
+
+.white-block{
+	background:#fff;
+	width:60%;
+	padding:7% 20% 10% 20%;
+	color:#823A9C;
+}
+
+h1{
+	text-align:center;
+	font-size:80px;
+	font-family:'wire one', serif;
+	font-weight:normal;
+}
+
+p{
+	font-size:20px;
+	font-family:'Raleway', serif;
 }
