@@ -392,3 +392,11 @@ p{
 	text-align: center;
 }
 
+#tabla-materias,#noticias,#contactanos{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#Programa{
+	padding-top: 5%;
+}
