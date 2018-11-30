@@ -337,6 +337,8 @@ article:nth-child(1){
 	color: #2c3e50;
 	padding: 10px 15px;
 	text-decoration: none;
+	width: 85%;
+	background: #f2f2f2;
 }
 
 .vertical ul li a:hover{
@@ -349,11 +351,10 @@ article:nth-child(1){
 	}
 }
 
-/*IMAGENES NOTICIAS*/
+/*
 #personal,body,#materias{
-    background: linear-gradient(to right, #ece9e6, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
+    background: linear-gradient(to right, #ece9e6, #ffffff); 
+}*/
 
 /*SEPARATE SECTIONS*/
 .colour-block{
@@ -381,3 +382,13 @@ p{
 	font-size:20px;
 	font-family:'Raleway', serif;
 }
+
+
+#QuienesSomos,#Programa,#maestros,#personal,#nombreProfesor,#contactanos{
+	background: #f2f2f2;
+}
+
+#nombreProfesor{
+	text-align: center;
+}
+
