@@ -1,0 +1,17 @@
+[
+	{
+		"titulo": "Juventud y Fe Cristiana",
+		"imagen": "img/noticia2.jpg",
+		"descripcion": "Juventud y sus pensamientos sobre la fe cristiana."
+	},
+	{
+		"titulo": "Reformas Contemporáneas",
+		"imagen": "img/noticia1.jpg",
+		"descripcion": "Evolución de la Reforma Contemporánea en la actualidad."
+	},
+	{
+		"titulo": "Pastoral de los Desafíos",
+		"imagen": "img/noticia3.jpg",
+		"descripcion": "Charla sobre los desafíos del diario vivir y la fe cristiana."
+	}
+]
